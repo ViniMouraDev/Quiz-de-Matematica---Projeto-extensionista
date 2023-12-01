@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(90deg, rgba(45, 206, 93, 0.808) 0%, rgb(40, 10, 124) 100%);
+}
+
+main {
+    background-color: rgba(11, 126, 192, 0.952);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h2 {
+    color: #333;
+    font-size: 36px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.image-container a {
+    text-decoration: none;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+
